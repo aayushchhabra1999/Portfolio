@@ -1,0 +1,17 @@
+*{
+    background-color: #F8F9FA;
+}
+
+.navbar-nav > li{
+    margin-right:30px;
+}
+
+.shiftright {
+    margin-left: 20px;
+    font-style: italic;
+}
+
+.jumbotron {
+    padding-bottom: 100%;
+    background-color: #F8F9FA;
+}

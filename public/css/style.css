@@ -56,15 +56,36 @@
 
   i{
       font-size:1.3rem;
+      margin-top: 8px;
   }
 
   footer{
-      position: fixed;
+      position:fixed;
       bottom: 0;
       background-color: #F8F9FA;
-      width: 100%;   
+      width: 100%; 
   }
 
-  body{
+footer p {
+    margin-bottom:3px
+}
+
+body{
     background-color: #F8F9FA;
-  }
+}
+
+hr{
+    margin:5px 0px;    
+    padding:1px 0px; 
+}
+
+#CR {
+    font-weight: 600;
+    font-size: 1.3rem;
+    font-family: inherit;
+}
+
+#PFOOT{
+    font-size: 1.2rem;
+}
+

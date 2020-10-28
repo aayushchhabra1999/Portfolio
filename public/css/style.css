@@ -112,3 +112,13 @@ hr{
 #intro-head{
     font-size: 3rem;
 }
+.videos{
+    margin-top:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.video {
+    margin:auto auto;
+    padding: 20px 10px;
+}

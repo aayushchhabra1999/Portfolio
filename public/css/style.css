@@ -93,6 +93,7 @@ hr{
 #body{
     margin: auto 50px;
     float:left;
+    min-height: 100%;
 }
 
 #intro {

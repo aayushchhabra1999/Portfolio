@@ -72,6 +72,7 @@ footer p {
 
 body{
     background-color: #F8F9FA;
+    padding-bottom: 350px;;
 }
 
 hr{
@@ -89,3 +90,25 @@ hr{
     font-size: 1.2rem;
 }
 
+#body{
+    margin: auto 50px;
+    float:left;
+}
+
+#intro {
+    padding: 10px;
+}
+
+#intro-img{
+    width: 100%;
+    margin:0px;
+}
+
+#intro-content {
+    margin:auto;
+    font-size: 150%;
+}
+
+#intro-head{
+    font-size: 3rem;
+}

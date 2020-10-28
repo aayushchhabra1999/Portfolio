@@ -60,7 +60,7 @@
   }
 
   footer{
-      position: relative;
+      position: fixed;
       bottom: 0;
       background-color: #F8F9FA;
       width: 100%; 

@@ -14,3 +14,15 @@ $(function () {
 $(function () {
   $(".topscripts").load("topscripts.html");
 });
+
+
+// Insert the list of books.
+fetch("data/books.txt")
+.then(response=>response.text())
+.then(function(t) {
+  let books = (t.split('\n'));
+  for(i in books){
+    console.log(books[i]);
+    $('#booklist').append('<li>' +books[i]+'</li>')
+  }
+});

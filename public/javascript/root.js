@@ -33,6 +33,6 @@ fetch("data/schedule.txt")
   let schedule = (t.split('\n'));
   for(i in schedule){
     console.log(schedule[i]);
-    $('#booklist').append('<li>' +schedule[i]+'</li>')
+    $('#schedule').append('<li>' +schedule[i]+'</li>')
   }
 });

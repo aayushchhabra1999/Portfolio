@@ -10,11 +10,9 @@ $(function () {
   $(".insertfooter").load("footer.html");
 });
 
-
 $(function () {
   $(".topscripts").load("topscripts.html");
 });
-
 
 // Insert the list of books.
 fetch("data/books.txt")
@@ -24,5 +22,17 @@ fetch("data/books.txt")
   for(i in books){
     console.log(books[i]);
     $('#booklist').append('<li>' +books[i]+'</li>')
+  }
+});
+
+
+// Insert my schedule
+fetch("data/schedule.txt")
+.then(response=>response.text())
+.then(function(t) {
+  let schedule = (t.split('\n'));
+  for(i in schedule){
+    console.log(schedule[i]);
+    $('#booklist').append('<li>' +schedule[i]+'</li>')
   }
 });

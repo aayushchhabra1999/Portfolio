@@ -1,3 +1,5 @@
 const vibrate = document.querySelector('button')
 
-let stat = window.navigator.vibrate(50000);
+vibrate.addEventListener('click', () => {
+  let stat = window.navigator.vibrate(50000);
+});
